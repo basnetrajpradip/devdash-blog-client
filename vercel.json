@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "https://devdash-blog-api.vercel.app/api/$1",
+      "methods": ["GET", "POST", "PUT", "DELETE"]
+    }
+  ]
+}
